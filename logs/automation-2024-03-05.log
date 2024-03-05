@@ -1,0 +1,60 @@
+00:03:41.525 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished UpcomingBikeTest ****
+00:03:41.925 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  Used Cars in Chennai
+00:03:57.807 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished TC_003_UsedCar ****
+00:03:58.234 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting LoginOrSignupTest ****
+00:03:58.235 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying login/SignUp
+00:04:01.979 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished LoginOrSignupTest ****
+00:04:02.420 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
+00:04:02.422 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
+00:04:19.783 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - LoginPage verification failed!!
+00:05:00.082 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+00:05:09.225 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+00:05:09.226 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+00:05:14.934 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on Upcoming Bikes
+00:05:16.093 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Failed to click upcoming bikes
+00:05:55.620 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+00:06:04.798 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+00:06:04.798 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+00:06:08.624 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Failed to click New Bikes
+00:06:48.877 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+00:06:59.342 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+00:06:59.343 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+00:07:05.280 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on Upcoming Bikes
+00:07:23.204 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished UpcomingBikeTest ****
+00:07:23.616 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  Used Cars in Chennai
+00:07:42.006 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished TC_003_UsedCar ****
+00:07:42.417 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting LoginOrSignupTest ****
+00:07:42.417 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying login/SignUp
+00:07:46.939 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished LoginOrSignupTest ****
+00:07:47.331 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
+00:07:47.331 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
+00:07:54.706 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished SignInPageTest ****
+00:09:31.968 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+00:09:42.036 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+00:09:42.037 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+00:09:47.949 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on Upcoming Bikes
+00:09:49.989 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Failed to click upcoming bikes
+00:09:50.287 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  Used Cars in Chennai
+00:10:09.144 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished TC_003_UsedCar ****
+00:10:09.648 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting LoginOrSignupTest ****
+00:10:09.649 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying login/SignUp
+00:10:13.888 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished LoginOrSignupTest ****
+00:10:14.352 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
+00:10:14.352 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
+00:10:21.974 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished SignInPageTest ****
+00:13:49.628 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+00:14:01.193 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+00:14:01.194 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+00:14:06.927 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on Upcoming Bikes
+00:14:23.317 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished UpcomingBikeTest ****
+00:14:23.693 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  Used Cars in Chennai
