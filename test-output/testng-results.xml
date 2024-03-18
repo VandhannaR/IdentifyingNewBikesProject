@@ -1,73 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="2" failed="4" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-03-15T12:30:42 IST" name="Suite" finished-at="2024-03-15T12:32:44 IST" duration-ms="122088">
+  <suite started-at="2024-03-18T13:54:07 IST" name="Suite" finished-at="2024-03-18T13:55:11 IST" duration-ms="63811">
     <groups>
       <group name="regression">
         <method signature="GoogleSignInTest.verifyLoginPage()[pri:0, instance:TestCase.GoogleSignInTest@6326d182]" name="verifyLoginPage" class="TestCase.GoogleSignInTest"/>
         <method signature="UpcomingBikeDetailsTestCase.UpcomingBikes()[pri:0, instance:TestCase.UpcomingBikeDetailsTestCase@757d6814]" name="UpcomingBikes" class="TestCase.UpcomingBikeDetailsTestCase"/>
         <method signature="UsedcarDetailsTest.UsedCarDetails()[pri:0, instance:TestCase.UsedcarDetailsTest@475835b1]" name="UsedCarDetails" class="TestCase.UsedcarDetailsTest"/>
-        <method signature="GoogleSignInTest.verifyLoginPage()[pri:0, instance:TestCase.GoogleSignInTest@51df223b]" name="verifyLoginPage" class="TestCase.GoogleSignInTest"/>
-        <method signature="UpcomingBikeDetailsTestCase.UpcomingBikes()[pri:0, instance:TestCase.UpcomingBikeDetailsTestCase@2ce86164]" name="UpcomingBikes" class="TestCase.UpcomingBikeDetailsTestCase"/>
-        <method signature="UsedcarDetailsTest.UsedCarDetails()[pri:0, instance:TestCase.UsedcarDetailsTest@5e8f9e2d]" name="UsedCarDetails" class="TestCase.UsedcarDetailsTest"/>
       </group> <!-- regression -->
       <group name="smoke">
         <method signature="UpcomingBikeDetailsTestCase.UpcomingBikes()[pri:0, instance:TestCase.UpcomingBikeDetailsTestCase@757d6814]" name="UpcomingBikes" class="TestCase.UpcomingBikeDetailsTestCase"/>
-        <method signature="UpcomingBikeDetailsTestCase.UpcomingBikes()[pri:0, instance:TestCase.UpcomingBikeDetailsTestCase@2ce86164]" name="UpcomingBikes" class="TestCase.UpcomingBikeDetailsTestCase"/>
       </group> <!-- smoke -->
       <group name="master">
         <method signature="GoogleSignInTest.verifyLoginPage()[pri:0, instance:TestCase.GoogleSignInTest@6326d182]" name="verifyLoginPage" class="TestCase.GoogleSignInTest"/>
         <method signature="UpcomingBikeDetailsTestCase.UpcomingBikes()[pri:0, instance:TestCase.UpcomingBikeDetailsTestCase@757d6814]" name="UpcomingBikes" class="TestCase.UpcomingBikeDetailsTestCase"/>
         <method signature="UsedcarDetailsTest.UsedCarDetails()[pri:0, instance:TestCase.UsedcarDetailsTest@475835b1]" name="UsedCarDetails" class="TestCase.UsedcarDetailsTest"/>
-        <method signature="GoogleSignInTest.verifyLoginPage()[pri:0, instance:TestCase.GoogleSignInTest@51df223b]" name="verifyLoginPage" class="TestCase.GoogleSignInTest"/>
-        <method signature="UpcomingBikeDetailsTestCase.UpcomingBikes()[pri:0, instance:TestCase.UpcomingBikeDetailsTestCase@2ce86164]" name="UpcomingBikes" class="TestCase.UpcomingBikeDetailsTestCase"/>
-        <method signature="UsedcarDetailsTest.UsedCarDetails()[pri:0, instance:TestCase.UsedcarDetailsTest@5e8f9e2d]" name="UsedCarDetails" class="TestCase.UsedcarDetailsTest"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-03-15T12:30:42 IST" name="ChromeTest" finished-at="2024-03-15T12:32:44 IST" duration-ms="122088">
+    <test started-at="2024-03-18T13:54:07 IST" name="ChromeTest" finished-at="2024-03-18T13:55:11 IST" duration-ms="63811">
       <class name="TestCase.UsedcarDetailsTest">
-        <test-method signature="UsedCarDetails()[pri:0, instance:TestCase.UsedcarDetailsTest@475835b1]" started-at="2024-03-15T12:31:18 IST" name="UsedCarDetails" finished-at="2024-03-15T12:31:23 IST" duration-ms="4889" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at TestCase.UsedcarDetailsTest.UsedCarDetails(UsedcarDetailsTest.java:32)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="UsedCarDetails()[pri:0, instance:TestCase.UsedcarDetailsTest@475835b1]" started-at="2024-03-18T13:54:41 IST" name="UsedCarDetails" finished-at="2024-03-18T13:54:58 IST" duration-ms="16584" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UsedCarDetails -->
       </class> <!-- TestCase.UsedcarDetailsTest -->
       <class name="TestCase.UpcomingBikeDetailsTestCase">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.UpcomingBikeDetailsTestCase@757d6814]" started-at="2024-03-15T12:30:43 IST" name="setup" finished-at="2024-03-15T12:31:05 IST" duration-ms="22174" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.UpcomingBikeDetailsTestCase@757d6814]" started-at="2024-03-18T13:54:07 IST" name="setup" finished-at="2024-03-18T13:54:19 IST" duration-ms="11583" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,222 +42,21 @@ at java.base/java.lang.Thread.run(Thread.java:833)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="UpcomingBikes()[pri:0, instance:TestCase.UpcomingBikeDetailsTestCase@757d6814]" started-at="2024-03-15T12:31:05 IST" name="UpcomingBikes" finished-at="2024-03-15T12:31:18 IST" duration-ms="12573" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at TestCase.UpcomingBikeDetailsTestCase.UpcomingBikes(UpcomingBikeDetailsTestCase.java:43)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="UpcomingBikes()[pri:0, instance:TestCase.UpcomingBikeDetailsTestCase@757d6814]" started-at="2024-03-18T13:54:19 IST" name="UpcomingBikes" finished-at="2024-03-18T13:54:41 IST" duration-ms="21591" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UpcomingBikes -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.UpcomingBikeDetailsTestCase@757d6814]" started-at="2024-03-15T12:32:43 IST" name="tearDown" finished-at="2024-03-15T12:32:44 IST" duration-ms="1516" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[Timed out waiting for driver server to stop.
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [a871f467ef5ff56737e16e0d788d3f3a, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50260}, msedge: {msedgedriverVersion: 122.0.2365.80 (bfff41c27eb2..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50260/devtoo..., se:cdpVersion: 122.0.2365.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: Timed out waiting for driver server to stop.
-Build info: version: '4.17.0', revision: 'e52b1be057*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [a871f467ef5ff56737e16e0d788d3f3a, quit {}]
-Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 122.0.2365.80, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:50260}, msedge: {msedgedriverVersion: 122.0.2365.80 (bfff41c27eb2..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50260/devtoo..., se:cdpVersion: 122.0.2365.80, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:592)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:596)
-at org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:434)
-at org.openqa.selenium.chromium.ChromiumDriver.quit(ChromiumDriver.java:432)
-at TestBase.BaseClass.tearDown(BaseClass.java:98)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:393)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:326)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:661)
-at org.testng.TestRunner.afterRun(TestRunner.java:904)
-at org.testng.TestRunner.run(TestRunner.java:622)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-Caused by: java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
-at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396)
-at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:160)
-... 24 more
-Caused by: java.lang.NullPointerException: Cannot invoke "java.net.http.HttpClient.sendAsync(java.net.http.HttpRequest, java.net.http.HttpResponse$BodyHandler)" because "this.client" is null
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute0(JdkHttpClient.java:382)
-at org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)
-at org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:55)
-at org.openqa.selenium.remote.http.jdk.JdkHttpClient.execute(JdkHttpClient.java:358)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.lambda$execute$1(DriverCommandExecutor.java:126)
-at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768)
-... 3 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.UpcomingBikeDetailsTestCase@757d6814]" started-at="2024-03-18T13:55:10 IST" name="tearDown" finished-at="2024-03-18T13:55:11 IST" duration-ms="1163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- TestCase.UpcomingBikeDetailsTestCase -->
       <class name="TestCase.GoogleSignInTest">
-        <test-method signature="verifyLoginPage()[pri:0, instance:TestCase.GoogleSignInTest@6326d182]" started-at="2024-03-15T12:31:30 IST" name="verifyLoginPage" finished-at="2024-03-15T12:32:42 IST" duration-ms="72791" status="PASS">
+        <test-method signature="verifyLoginPage()[pri:0, instance:TestCase.GoogleSignInTest@6326d182]" started-at="2024-03-18T13:54:58 IST" name="verifyLoginPage" finished-at="2024-03-18T13:55:09 IST" duration-ms="11570" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPage -->
       </class> <!-- TestCase.GoogleSignInTest -->
     </test> <!-- ChromeTest -->
-    <test started-at="2024-03-15T12:30:42 IST" name="EdgeTest" finished-at="2024-03-15T12:32:44 IST" duration-ms="122080">
-      <class name="TestCase.UsedcarDetailsTest">
-        <test-method signature="UsedCarDetails()[pri:0, instance:TestCase.UsedcarDetailsTest@5e8f9e2d]" started-at="2024-03-15T12:31:57 IST" name="UsedCarDetails" finished-at="2024-03-15T12:32:22 IST" duration-ms="24896" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at TestCase.UsedcarDetailsTest.UsedCarDetails(UsedcarDetailsTest.java:32)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UsedCarDetails -->
-      </class> <!-- TestCase.UsedcarDetailsTest -->
-      <class name="TestCase.UpcomingBikeDetailsTestCase">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:TestCase.UpcomingBikeDetailsTestCase@2ce86164]" started-at="2024-03-15T12:30:43 IST" name="setup" finished-at="2024-03-15T12:31:05 IST" duration-ms="22046" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Edge]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="UpcomingBikes()[pri:0, instance:TestCase.UpcomingBikeDetailsTestCase@2ce86164]" started-at="2024-03-15T12:31:05 IST" name="UpcomingBikes" finished-at="2024-03-15T12:31:56 IST" duration-ms="51244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UpcomingBikes -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCase.UpcomingBikeDetailsTestCase@2ce86164]" started-at="2024-03-15T12:32:42 IST" name="tearDown" finished-at="2024-03-15T12:32:44 IST" duration-ms="1640" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestCase.UpcomingBikeDetailsTestCase -->
-      <class name="TestCase.GoogleSignInTest">
-        <test-method signature="verifyLoginPage()[pri:0, instance:TestCase.GoogleSignInTest@51df223b]" started-at="2024-03-15T12:32:22 IST" name="verifyLoginPage" finished-at="2024-03-15T12:32:42 IST" duration-ms="20089" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: null
-at org.testng.Assert.fail(Assert.java:111)
-at org.testng.Assert.fail(Assert.java:116)
-at TestCase.GoogleSignInTest.verifyLoginPage(GoogleSignInTest.java:50)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:819)
-at org.testng.TestRunner.run(TestRunner.java:619)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-at java.base/java.lang.Thread.run(Thread.java:833)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPage -->
-      </class> <!-- TestCase.GoogleSignInTest -->
-    </test> <!-- EdgeTest -->
   </suite> <!-- Suite -->
 </testng-results>

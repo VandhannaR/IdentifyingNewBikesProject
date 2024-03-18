@@ -6,3 +6,30 @@
 12:51:41.282 [main] INFO  TestBase.BaseClass - **** Starting SignInPageTest ****
 12:51:41.282 [main] INFO  TestBase.BaseClass - Verifying loginPage
 12:51:53.331 [main] INFO  TestBase.BaseClass - **** Finished SignInPageTest ****
+13:54:07.352 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+13:54:19.527 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+13:54:19.528 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+13:54:41.108 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished UpcomingBikeTest ****
+13:54:41.456 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - Starting used car testcase
+13:54:58.037 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished used car testcase ****
+13:54:58.409 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
+13:54:58.409 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
+13:55:09.977 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished SignInPageTest ****
+13:55:51.776 [main] INFO  TestBase.BaseClass - **** Starting UpcomingBikeTest ****
+13:55:51.794 [main] INFO  TestBase.BaseClass - clicking on  New Bikes 
+13:56:16.482 [main] INFO  TestBase.BaseClass - **** Finished UpcomingBikeTest ****
+13:56:16.487 [main] INFO  TestBase.BaseClass - Starting used car testcase
+13:56:33.097 [main] INFO  TestBase.BaseClass - **** Finished used car testcase ****
+13:56:33.101 [main] INFO  TestBase.BaseClass - **** Starting SignInPageTest ****
+13:56:33.101 [main] INFO  TestBase.BaseClass - Verifying loginPage
+13:56:44.640 [main] INFO  TestBase.BaseClass - **** Finished SignInPageTest ****
+13:58:46.040 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+13:58:46.054 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+13:59:09.009 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished UpcomingBikeTest ****
+13:59:09.392 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - Starting used car testcase
+13:59:25.855 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished used car testcase ****
+13:59:26.178 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
+13:59:26.178 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
+13:59:38.104 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished SignInPageTest ****
