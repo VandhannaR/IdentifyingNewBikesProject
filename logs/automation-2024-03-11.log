@@ -1,0 +1,63 @@
+17:11:45.693 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - LoginPage verification failed!!
+17:13:55.147 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+17:14:25.128 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+17:16:33.988 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+17:18:20.470 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+22:52:10.957 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+22:52:24.960 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+22:52:24.962 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+22:52:50.749 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished UpcomingBikeTest ****
+22:52:51.262 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Starting used car testcase
+22:53:09.234 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished used car testcase ****
+22:53:09.864 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
+22:53:09.865 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
+22:53:43.154 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - LoginPage verification failed!!
+22:55:18.737 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+22:55:31.453 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+22:55:31.454 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+22:55:58.868 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished UpcomingBikeTest ****
+22:55:59.325 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Starting used car testcase
+22:56:17.125 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished used car testcase ****
+22:56:17.653 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
+22:56:17.656 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
+22:56:50.930 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - LoginPage verification failed!!
+22:58:11.244 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+22:58:23.484 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+22:58:23.485 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+22:58:49.787 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished UpcomingBikeTest ****
+22:58:50.281 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Starting used car testcase
+22:59:08.200 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished used car testcase ****
+22:59:08.738 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
+22:59:08.739 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
+22:59:41.633 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - LoginPage verification failed!!
+23:13:41.270 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+23:13:54.954 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+23:13:54.954 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+23:14:42.543 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished UpcomingBikeTest ****
+23:14:43.201 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Starting used car testcase
+23:15:05.759 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished used car testcase ****
+23:15:06.455 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
+23:15:06.456 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
+23:15:22.747 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - LoginPage verification failed!!
+23:17:03.923 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+23:17:03.943 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 4 ms.
+23:17:03.947 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+23:17:03.948 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+23:17:03.955 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+23:17:03.978 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 23 ms.

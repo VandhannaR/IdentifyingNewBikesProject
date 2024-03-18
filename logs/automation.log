@@ -1,22 +1,8 @@
-00:14:40.266 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished TC_003_UsedCar ****
-00:14:40.749 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting LoginOrSignupTest ****
-00:14:40.750 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying login/SignUp
-00:14:43.854 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished LoginOrSignupTest ****
-00:14:44.132 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
-00:14:44.132 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
-00:14:54.213 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - LoginPage verification failed!!
-00:15:10.032 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
-  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
-
-00:15:19.737 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
-00:15:19.737 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
-00:15:25.580 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on Upcoming Bikes
-00:15:42.263 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished UpcomingBikeTest ****
-00:15:42.648 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  Used Cars in Chennai
-00:15:59.443 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished TC_003_UsedCar ****
-00:15:59.801 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting LoginOrSignupTest ****
-00:15:59.801 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying login/SignUp
-00:16:03.415 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished LoginOrSignupTest ****
-00:16:03.745 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
-00:16:03.745 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
-00:16:11.128 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished SignInPageTest ****
+12:51:01.752 [main] INFO  TestBase.BaseClass - **** Starting UpcomingBikeTest ****
+12:51:01.780 [main] INFO  TestBase.BaseClass - clicking on  New Bikes 
+12:51:24.590 [main] INFO  TestBase.BaseClass - **** Finished UpcomingBikeTest ****
+12:51:24.594 [main] INFO  TestBase.BaseClass - Starting used car testcase
+12:51:41.266 [main] INFO  TestBase.BaseClass - **** Finished used car testcase ****
+12:51:41.282 [main] INFO  TestBase.BaseClass - **** Starting SignInPageTest ****
+12:51:41.282 [main] INFO  TestBase.BaseClass - Verifying loginPage
+12:51:53.331 [main] INFO  TestBase.BaseClass - **** Finished SignInPageTest ****

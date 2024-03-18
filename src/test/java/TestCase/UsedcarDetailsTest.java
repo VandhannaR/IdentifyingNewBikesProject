@@ -13,13 +13,15 @@ public class UsedcarDetailsTest extends BaseClass {
 	public void UsedCarDetails() throws InterruptedException, IOException {
 
 		try {
-			logger.info("clicking on  Used Cars in Chennai");
+			logger.info("Starting used car testcase");
+			
+			System.out.println("Capturing used car details in chennai:");
 			UsedCars usedCar = new UsedCars(driver);
 			
 			//Hover and select used cars
 			usedCar.selectUsedCars();
 			
-			//Click on the selected car
+			//Click on the selected car location
 			usedCar.clickSelectedCar();
 
 			//Click on the popular models
@@ -29,7 +31,7 @@ public class UsedcarDetailsTest extends BaseClass {
 			e.printStackTrace();
 			Assert.fail();
 		}
-		logger.info("**** Finished TC_003_UsedCar ****");
+		logger.info("**** Finished used car testcase ****");
 	}
 }
 

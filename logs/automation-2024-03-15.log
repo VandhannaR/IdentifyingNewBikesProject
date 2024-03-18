@@ -1,0 +1,52 @@
+12:16:01.823 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:16:01.835 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:16:01.836 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:16:01.836 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:16:01.837 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:16:01.837 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:16:01.842 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:16:01.843 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:16:01.843 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:16:01.843 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:16:01.845 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:16:01.845 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:16:01.848 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 3 ms.
+12:16:01.849 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:16:01.851 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+12:16:01.852 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:16:01.854 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:16:01.854 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:16:01.854 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+12:16:01.855 [main] INFO  org.testng.internal.Utils - [Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+12:16:01.868 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\AppData\Local\Temp\2\testng-eclipse--1360768444\testng-customsuite.xml
+
+12:16:01.943 [main] INFO  org.testng.internal.Utils - [Utils] DynamicGraphHelper.createDynamicGraph() took 9 ms.
+12:16:02.203 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.jq.Main@62da83ed: 120 ms
+12:16:02.222 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.FailedReporter@c1fca1e: 18 ms
+12:16:02.239 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.XMLReporter@2ef8a8c3: 17 ms
+12:16:02.252 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.EmailableReporter2@1734f68: 12 ms
+12:16:02.264 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.reporters.JUnitReportReporter@7dac3fd8: 11 ms
+12:16:02.264 [main] INFO  org.testng.internal.Utils - [TestNG] Time taken by org.testng.internal.ExitCodeListener@425357dd: 0 ms
+12:20:04.378 [main] INFO  TestBase.BaseClass - **** Starting UpcomingBikeTest ****
+12:20:04.410 [main] INFO  TestBase.BaseClass - clicking on  New Bikes 
+12:20:29.902 [main] INFO  TestBase.BaseClass - **** Finished UpcomingBikeTest ****
+12:20:29.910 [main] INFO  TestBase.BaseClass - Starting used car testcase
+12:20:49.989 [main] INFO  TestBase.BaseClass - **** Finished used car testcase ****
+12:20:49.996 [main] INFO  TestBase.BaseClass - **** Starting SignInPageTest ****
+12:20:49.997 [main] INFO  TestBase.BaseClass - Verifying loginPage
+12:21:06.242 [main] INFO  TestBase.BaseClass - **** Finished SignInPageTest ****
+12:25:43.556 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+12:26:04.282 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+12:26:04.286 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+12:26:31.347 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished UpcomingBikeTest ****
+12:26:31.848 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - Starting used car testcase
+12:26:51.458 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished used car testcase ****
+12:26:51.974 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
+12:26:51.975 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
+12:27:10.596 [TestNG-tests-1] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished SignInPageTest ****
+12:27:57.546 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+

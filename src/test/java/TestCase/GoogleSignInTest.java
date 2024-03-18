@@ -4,6 +4,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import PageObjects.LoginPage;
+import PageObjects.LoginOrSignupPage;
 import TestBase.BaseClass;
 import Utilities.WindowHandle;
 
@@ -14,6 +15,18 @@ public class GoogleSignInTest extends BaseClass {
 		logger.info("**** Starting SignInPageTest ****");
 		try {
 			logger.info("Verifying loginPage");
+			
+            LoginOrSignupPage loginSignupPage = new LoginOrSignupPage(driver);
+			
+			// click on the Zigwheels link to navigate back
+			loginSignupPage.clickZigwheels();
+			
+			// Click on the Login/Signup button
+			loginSignupPage.clickLoginSignUp();
+			
+			
+			// Select the google button
+			loginSignupPage.selectGoogleButton();
 			// Implementing window handles
 			WindowHandle windowHandle = new WindowHandle(driver);
 			windowHandle.windowNavigate("Sign in - Google Accounts");

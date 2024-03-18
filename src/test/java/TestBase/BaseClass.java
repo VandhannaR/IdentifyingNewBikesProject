@@ -17,7 +17,6 @@ import java.net.URL;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -34,39 +33,17 @@ public class BaseClass {
 	@BeforeTest(groups={"smoke","regression","master"})
 	@Parameters({"os", "browser"})
 	public void setup(@Optional("edge")String os, String browser) throws IOException {
-		FileReader fileReader = new FileReader(".//src/test/resources/config.properties");
-		Properties properties = new Properties();
-		properties.load(fileReader);
-		
-		//loading log4j2 file
-		logger = LogManager.getLogger(this.getClass());
-		ChromeOptions options =new ChromeOptions();
-		options.addArguments("--disable-notifications");
-		if(browser.equalsIgnoreCase("chrome")) {			
-			driver = new ChromeDriver(options);
-		}else if(browser.equalsIgnoreCase("edge")) {
-			driver = new EdgeDriver();
-		}else {
-			System.out.println("No Matching Browser");
-			return;
-		}
-		
-		driver.manage().deleteAllCookies();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.get(properties.getProperty("Url"));
-		driver.manage().window().maximize();
 		
 		
-		/*FileReader file = new FileReader(".//src//test//resources//config.properties");
+		FileReader file = new FileReader(".//src//test//resources//config.properties");
 		p = new Properties();
 		p.load(file);
 		logger = LogManager.getLogger(this.getClass());// Log4j
 
-		/*if (p.getProperty("execution_env").equalsIgnoreCase("remote")) {
+		if (p.getProperty("execution_env").equalsIgnoreCase("remote")) {
 
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 
-			// os
 			if (os.equalsIgnoreCase("windows")) {
 				capabilities.setPlatform(Platform.WIN11);
 			} else if (os.equalsIgnoreCase("mac")) {
@@ -112,11 +89,11 @@ public class BaseClass {
 
 		driver.get(p.getProperty("Url"));
 		
-		driver.manage().window().maximize();*/
+		driver.manage().window().maximize();
 	}
 	
 	
-	@AfterTest(groups={"smoke","regression","master"})
+	@AfterTest(groups={"smoke","regression","master"},alwaysRun=true)
 	public void tearDown() {
 		driver.quit();
 	}

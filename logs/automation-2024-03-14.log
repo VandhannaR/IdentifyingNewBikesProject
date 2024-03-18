@@ -1,0 +1,5 @@
+09:38:44.681 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+09:38:53.009 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+09:38:53.009 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 

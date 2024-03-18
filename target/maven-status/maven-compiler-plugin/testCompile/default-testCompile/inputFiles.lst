@@ -4,8 +4,9 @@ C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\src\test\java\PageObj
 C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\src\test\java\PageObjects\UpcomingBikes.java
 C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\src\test\java\PageObjects\UsedCars.java
 C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\src\test\java\PageObjects\zigWheelsPage.java
+C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\src\test\java\stepDefinition\StepDef.java
+C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\src\test\java\stepDefinition\testRunner.java
 C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\src\test\java\TestBase\BaseClass.java
-C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\src\test\java\TestCase\GoogleLoginOrSignUpTest.java
 C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\src\test\java\TestCase\GoogleSignInTest.java
 C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\src\test\java\TestCase\UpcomingBikeDetailsTestCase.java
 C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\src\test\java\TestCase\UsedcarDetailsTest.java

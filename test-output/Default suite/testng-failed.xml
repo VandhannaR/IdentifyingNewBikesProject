@@ -5,9 +5,8 @@
     <classes>
       <class name="TestCase.UpcomingBikeDetailsTestCase">
         <methods>
-          <include name="clickNewBikes"/>
           <include name="setup"/>
-          <include name="clickUpcomingBikes"/>
+          <include name="UpcomingBikes"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- TestCase.UpcomingBikeDetailsTestCase -->

@@ -25,8 +25,9 @@ public class LoginPage extends BasePage {
 	@FindBy(xpath = "//span[normalize-space()='Next']")
 	public WebElement nextBtn_loc;
 
+	
 	//locate the error message displayed
-	@FindBy(xpath = "//div[@class='o6cuMc Jj6Lae']")
+	@FindBy(xpath = "//div[text()='Couldn’t find your Google Account']")
 	public WebElement errorMessage;
 
 	//passing invalid account details
@@ -43,8 +44,8 @@ public class LoginPage extends BasePage {
 	//capturing the error message and display on the console
 	public void handleErrorMsg() throws IOException {
 		String errorMsg = errorMessage.getText();
-		System.out.println("***********************");
-		System.out.println(errorMsg);
+		System.out.println("---------------------------------");
+		System.out.println("Error Message: "+ errorMsg);
 		excelUtility.setCellData("LoginPage", 0, 0, errorMsg);
 	}
 

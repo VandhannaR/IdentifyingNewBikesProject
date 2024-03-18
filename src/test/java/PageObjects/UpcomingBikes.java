@@ -2,8 +2,7 @@ package PageObjects;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+
 
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -77,7 +76,7 @@ public class UpcomingBikes extends BasePage {
 			int price = Integer.parseInt(bikePrice.get(i).getAttribute("data-price"));
 			if (price < 400000) {
 				System.out.println(bikeName + "\n" + price + "\n" + launchDate);
-				System.out.println("****************************");
+				System.out.println("---------------------------------");
 				excelUtility.setCellData("UpcomingBike", row, 0, bikeName);
 				excelUtility.setCellData("UpcomingBike", row, 1, price + "");
 				excelUtility.setCellData("UpcomingBike", row, 2, launchDate);

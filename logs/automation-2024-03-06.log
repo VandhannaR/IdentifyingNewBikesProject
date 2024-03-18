@@ -1,0 +1,61 @@
+23:59:23.197 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished used car testcase ****
+23:59:23.612 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
+23:59:23.612 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
+23:59:34.703 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished SignInPageTest ****
+23:59:53.698 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+23:59:53.699 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+00:00:07.553 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Failed to click New Bikes
+00:00:12.836 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+00:00:22.957 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+00:00:22.958 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+00:00:43.307 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished UpcomingBikeTest ****
+00:00:43.715 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Starting used car testcase
+00:00:59.259 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished used car testcase ****
+00:00:59.686 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
+00:00:59.686 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
+00:01:31.060 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - LoginPage verification failed!!
+00:01:49.920 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+00:01:49.920 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+00:02:08.578 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished UpcomingBikeTest ****
+00:02:09.001 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Starting used car testcase
+00:02:25.496 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished used car testcase ****
+00:02:25.916 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
+00:02:25.916 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
+00:02:57.357 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - LoginPage verification failed!!
+00:05:07.671 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+00:05:16.704 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+00:05:16.704 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+00:05:37.843 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished UpcomingBikeTest ****
+00:05:38.313 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Starting used car testcase
+00:05:54.613 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished used car testcase ****
+00:05:55.032 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
+00:05:55.032 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
+00:06:06.440 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished SignInPageTest ****
+00:06:25.192 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+00:06:25.192 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+00:06:43.682 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished UpcomingBikeTest ****
+00:06:44.074 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Starting used car testcase
+00:06:59.679 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Finished used car testcase ****
+00:07:00.124 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting SignInPageTest ****
+00:07:00.124 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Verifying loginPage
+00:07:25.833 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - LoginPage verification failed!!
+00:08:23.726 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+00:10:31.123 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+00:11:41.089 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+00:11:54.640 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
+00:11:54.640 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - clicking on  New Bikes 
+00:12:15.490 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - Failed to click New Bikes
+00:12:33.520 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\2308345\eclipse-workspace\IdentifyNewBikesProject\master.xml
+
+00:12:47.101 [main] INFO  TestCase.UpcomingBikeDetailsTestCase - **** Starting UpcomingBikeTest ****
